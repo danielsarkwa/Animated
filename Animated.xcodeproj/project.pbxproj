@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0064051C2A30E89C008FA83F /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 006405192A30E89C008FA83F /* Inter-Regular.ttf */; };
+		0064051D2A30E89C008FA83F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0064051A2A30E89C008FA83F /* Poppins-Bold.ttf */; };
+		0064051E2A30E89C008FA83F /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0064051B2A30E89C008FA83F /* Inter-SemiBold.ttf */; };
+		006405212A30EBFD008FA83F /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006405202A30EBFD008FA83F /* CustomFont.swift */; };
+		006405232A30F100008FA83F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006405222A30F100008FA83F /* SignInView.swift */; };
+		006405252A30F470008FA83F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006405242A30F470008FA83F /* CustomTextField.swift */; };
+		006405272A30F5FA008FA83F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006405262A30F5FA008FA83F /* Extensions.swift */; };
 		0085A4FF2A26F6BF00C4EDD0 /* AnimatedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085A4FE2A26F6BF00C4EDD0 /* AnimatedApp.swift */; };
 		0085A5012A26F6BF00C4EDD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085A5002A26F6BF00C4EDD0 /* ContentView.swift */; };
 		0085A5032A26F6C000C4EDD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0085A5022A26F6C000C4EDD0 /* Assets.xcassets */; };
 		0085A5062A26F6C000C4EDD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0085A5052A26F6C000C4EDD0 /* Preview Assets.xcassets */; };
+		0085A5142A26F74C00C4EDD0 /* house.riv in Resources */ = {isa = PBXBuildFile; fileRef = 0085A50D2A26F74C00C4EDD0 /* house.riv */; };
+		0085A5152A26F74C00C4EDD0 /* confetti.riv in Resources */ = {isa = PBXBuildFile; fileRef = 0085A50E2A26F74C00C4EDD0 /* confetti.riv */; };
+		0085A5162A26F74C00C4EDD0 /* check.riv in Resources */ = {isa = PBXBuildFile; fileRef = 0085A50F2A26F74C00C4EDD0 /* check.riv */; };
+		0085A5172A26F74C00C4EDD0 /* menu_button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 0085A5102A26F74C00C4EDD0 /* menu_button.riv */; };
+		0085A5192A26F74C00C4EDD0 /* button.riv in Resources */ = {isa = PBXBuildFile; fileRef = 0085A5122A26F74C00C4EDD0 /* button.riv */; };
+		0085A51A2A26F74C00C4EDD0 /* icons.riv in Resources */ = {isa = PBXBuildFile; fileRef = 0085A5132A26F74C00C4EDD0 /* icons.riv */; };
+		0085A51D2A26FA5600C4EDD0 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 0085A51C2A26FA5600C4EDD0 /* RiveRuntime */; };
+		0085A51F2A26FA7800C4EDD0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085A51E2A26FA7800C4EDD0 /* OnboardingView.swift */; };
+		0085A5232A27063700C4EDD0 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = 0085A5222A27063700C4EDD0 /* shapes.riv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		006405192A30E89C008FA83F /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		0064051A2A30E89C008FA83F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		0064051B2A30E89C008FA83F /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		0064051F2A30E932008FA83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		006405202A30EBFD008FA83F /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		006405222A30F100008FA83F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		006405242A30F470008FA83F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		006405262A30F5FA008FA83F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0085A4FB2A26F6BF00C4EDD0 /* Animated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animated.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0085A4FE2A26F6BF00C4EDD0 /* AnimatedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedApp.swift; sourceTree = "<group>"; };
 		0085A5002A26F6BF00C4EDD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0085A5022A26F6C000C4EDD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0085A5052A26F6C000C4EDD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0085A50D2A26F74C00C4EDD0 /* house.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = house.riv; sourceTree = "<group>"; };
+		0085A50E2A26F74C00C4EDD0 /* confetti.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = confetti.riv; sourceTree = "<group>"; };
+		0085A50F2A26F74C00C4EDD0 /* check.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = check.riv; sourceTree = "<group>"; };
+		0085A5102A26F74C00C4EDD0 /* menu_button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = menu_button.riv; sourceTree = "<group>"; };
+		0085A5122A26F74C00C4EDD0 /* button.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.riv; sourceTree = "<group>"; };
+		0085A5132A26F74C00C4EDD0 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
+		0085A51E2A26FA7800C4EDD0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0085A5222A27063700C4EDD0 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +58,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0085A51D2A26FA5600C4EDD0 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		006405182A30E89C008FA83F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				006405192A30E89C008FA83F /* Inter-Regular.ttf */,
+				0064051A2A30E89C008FA83F /* Poppins-Bold.ttf */,
+				0064051B2A30E89C008FA83F /* Inter-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		0085A4F22A26F6BF00C4EDD0 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +94,17 @@
 		0085A4FD2A26F6BF00C4EDD0 /* Animated */ = {
 			isa = PBXGroup;
 			children = (
+				0064051F2A30E932008FA83F /* Info.plist */,
 				0085A4FE2A26F6BF00C4EDD0 /* AnimatedApp.swift */,
 				0085A5002A26F6BF00C4EDD0 /* ContentView.swift */,
+				0085A51E2A26FA7800C4EDD0 /* OnboardingView.swift */,
+				006405222A30F100008FA83F /* SignInView.swift */,
+				006405262A30F5FA008FA83F /* Extensions.swift */,
+				006405242A30F470008FA83F /* CustomTextField.swift */,
+				006405202A30EBFD008FA83F /* CustomFont.swift */,
 				0085A5022A26F6C000C4EDD0 /* Assets.xcassets */,
+				006405182A30E89C008FA83F /* Fonts */,
+				0085A50C2A26F74C00C4EDD0 /* RiveAssets */,
 				0085A5042A26F6C000C4EDD0 /* Preview Content */,
 			);
 			path = Animated;
@@ -65,6 +116,20 @@
 				0085A5052A26F6C000C4EDD0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0085A50C2A26F74C00C4EDD0 /* RiveAssets */ = {
+			isa = PBXGroup;
+			children = (
+				0085A50D2A26F74C00C4EDD0 /* house.riv */,
+				0085A50E2A26F74C00C4EDD0 /* confetti.riv */,
+				0085A5222A27063700C4EDD0 /* shapes.riv */,
+				0085A50F2A26F74C00C4EDD0 /* check.riv */,
+				0085A5102A26F74C00C4EDD0 /* menu_button.riv */,
+				0085A5122A26F74C00C4EDD0 /* button.riv */,
+				0085A5132A26F74C00C4EDD0 /* icons.riv */,
+			);
+			path = RiveAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +148,9 @@
 			dependencies = (
 			);
 			name = Animated;
+			packageProductDependencies = (
+				0085A51C2A26FA5600C4EDD0 /* RiveRuntime */,
+			);
 			productName = Animated;
 			productReference = 0085A4FB2A26F6BF00C4EDD0 /* Animated.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +179,9 @@
 				Base,
 			);
 			mainGroup = 0085A4F22A26F6BF00C4EDD0;
+			packageReferences = (
+				0085A51B2A26FA5500C4EDD0 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = 0085A4FC2A26F6BF00C4EDD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +196,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0064051E2A30E89C008FA83F /* Inter-SemiBold.ttf in Resources */,
+				0085A5162A26F74C00C4EDD0 /* check.riv in Resources */,
 				0085A5062A26F6C000C4EDD0 /* Preview Assets.xcassets in Resources */,
+				0085A5172A26F74C00C4EDD0 /* menu_button.riv in Resources */,
+				0085A5142A26F74C00C4EDD0 /* house.riv in Resources */,
+				0085A5232A27063700C4EDD0 /* shapes.riv in Resources */,
+				0085A5192A26F74C00C4EDD0 /* button.riv in Resources */,
+				0064051C2A30E89C008FA83F /* Inter-Regular.ttf in Resources */,
+				0064051D2A30E89C008FA83F /* Poppins-Bold.ttf in Resources */,
 				0085A5032A26F6C000C4EDD0 /* Assets.xcassets in Resources */,
+				0085A5152A26F74C00C4EDD0 /* confetti.riv in Resources */,
+				0085A51A2A26F74C00C4EDD0 /* icons.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0085A51F2A26FA7800C4EDD0 /* OnboardingView.swift in Sources */,
+				006405212A30EBFD008FA83F /* CustomFont.swift in Sources */,
+				006405252A30F470008FA83F /* CustomTextField.swift in Sources */,
 				0085A5012A26F6BF00C4EDD0 /* ContentView.swift in Sources */,
 				0085A4FF2A26F6BF00C4EDD0 /* AnimatedApp.swift in Sources */,
+				006405232A30F100008FA83F /* SignInView.swift in Sources */,
+				006405272A30F5FA008FA83F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +356,7 @@
 				DEVELOPMENT_TEAM = 59B3SJ5FLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Animated/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +386,7 @@
 				DEVELOPMENT_TEAM = 59B3SJ5FLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Animated/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +427,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0085A51B2A26FA5500C4EDD0 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0085A51C2A26FA5600C4EDD0 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0085A51B2A26FA5500C4EDD0 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0085A4F32A26F6BF00C4EDD0 /* Project object */;
 }
