@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0018F1822A37A54E00843D43 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0018F1812A37A54E00843D43 /* TabBar.swift */; };
 		0064051C2A30E89C008FA83F /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 006405192A30E89C008FA83F /* Inter-Regular.ttf */; };
 		0064051D2A30E89C008FA83F /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0064051A2A30E89C008FA83F /* Poppins-Bold.ttf */; };
 		0064051E2A30E89C008FA83F /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0064051B2A30E89C008FA83F /* Inter-SemiBold.ttf */; };
@@ -27,9 +28,15 @@
 		0085A51D2A26FA5600C4EDD0 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 0085A51C2A26FA5600C4EDD0 /* RiveRuntime */; };
 		0085A51F2A26FA7800C4EDD0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085A51E2A26FA7800C4EDD0 /* OnboardingView.swift */; };
 		0085A5232A27063700C4EDD0 /* shapes.riv in Resources */ = {isa = PBXBuildFile; fileRef = 0085A5222A27063700C4EDD0 /* shapes.riv */; };
+		00FA25622A39014A002FD9C5 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA25602A39014A002FD9C5 /* CourseSection.swift */; };
+		00FA25632A39014A002FD9C5 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA25612A39014A002FD9C5 /* Course.swift */; };
+		00FA25652A390189002FD9C5 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA25642A390189002FD9C5 /* VCard.swift */; };
+		00FA25672A3904CA002FD9C5 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA25662A3904CA002FD9C5 /* HCard.swift */; };
+		00FA25692A39055F002FD9C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA25682A39055F002FD9C5 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0018F1812A37A54E00843D43 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		006405192A30E89C008FA83F /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		0064051A2A30E89C008FA83F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		0064051B2A30E89C008FA83F /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		0085A5132A26F74C00C4EDD0 /* icons.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = icons.riv; sourceTree = "<group>"; };
 		0085A51E2A26FA7800C4EDD0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		0085A5222A27063700C4EDD0 /* shapes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = shapes.riv; sourceTree = "<group>"; };
+		00FA25602A39014A002FD9C5 /* CourseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		00FA25612A39014A002FD9C5 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		00FA25642A390189002FD9C5 /* VCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		00FA25662A3904CA002FD9C5 /* HCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
+		00FA25682A39055F002FD9C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0018F17F2A37A37900843D43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0085A51E2A26FA7800C4EDD0 /* OnboardingView.swift */,
+				006405222A30F100008FA83F /* SignInView.swift */,
+				0018F1812A37A54E00843D43 /* TabBar.swift */,
+				00FA25682A39055F002FD9C5 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0018F1802A37A38400843D43 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				006405262A30F5FA008FA83F /* Extensions.swift */,
+				006405242A30F470008FA83F /* CustomTextField.swift */,
+				006405202A30EBFD008FA83F /* CustomFont.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		006405182A30E89C008FA83F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +130,11 @@
 				0064051F2A30E932008FA83F /* Info.plist */,
 				0085A4FE2A26F6BF00C4EDD0 /* AnimatedApp.swift */,
 				0085A5002A26F6BF00C4EDD0 /* ContentView.swift */,
-				0085A51E2A26FA7800C4EDD0 /* OnboardingView.swift */,
-				006405222A30F100008FA83F /* SignInView.swift */,
-				006405262A30F5FA008FA83F /* Extensions.swift */,
-				006405242A30F470008FA83F /* CustomTextField.swift */,
-				006405202A30EBFD008FA83F /* CustomFont.swift */,
+				00FA25642A390189002FD9C5 /* VCard.swift */,
+				00FA25662A3904CA002FD9C5 /* HCard.swift */,
+				0018F17F2A37A37900843D43 /* Views */,
+				0018F1802A37A38400843D43 /* Styles */,
+				00FA255F2A39014A002FD9C5 /* Model */,
 				0085A5022A26F6C000C4EDD0 /* Assets.xcassets */,
 				006405182A30E89C008FA83F /* Fonts */,
 				0085A50C2A26F74C00C4EDD0 /* RiveAssets */,
@@ -130,6 +163,15 @@
 				0085A5132A26F74C00C4EDD0 /* icons.riv */,
 			);
 			path = RiveAssets;
+			sourceTree = "<group>";
+		};
+		00FA255F2A39014A002FD9C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00FA25602A39014A002FD9C5 /* CourseSection.swift */,
+				00FA25612A39014A002FD9C5 /* Course.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,12 +260,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FA25672A3904CA002FD9C5 /* HCard.swift in Sources */,
 				0085A51F2A26FA7800C4EDD0 /* OnboardingView.swift in Sources */,
+				00FA25692A39055F002FD9C5 /* HomeView.swift in Sources */,
 				006405212A30EBFD008FA83F /* CustomFont.swift in Sources */,
+				00FA25632A39014A002FD9C5 /* Course.swift in Sources */,
 				006405252A30F470008FA83F /* CustomTextField.swift in Sources */,
+				0018F1822A37A54E00843D43 /* TabBar.swift in Sources */,
+				00FA25652A390189002FD9C5 /* VCard.swift in Sources */,
 				0085A5012A26F6BF00C4EDD0 /* ContentView.swift in Sources */,
 				0085A4FF2A26F6BF00C4EDD0 /* AnimatedApp.swift in Sources */,
 				006405232A30F100008FA83F /* SignInView.swift in Sources */,
+				00FA25622A39014A002FD9C5 /* CourseSection.swift in Sources */,
 				006405272A30F5FA008FA83F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

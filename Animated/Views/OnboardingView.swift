@@ -23,7 +23,7 @@ struct OnboardingView: View {
                 .opacity(showModal ? 0.4 : 0)
             
             if showModal {
-                SignInView()
+                SignInView(showModel: $showModal) // parse and link data to SignInView
                     .transition(.opacity.combined(with: .move(edge: .top)))
                     .overlay(
                         Button {
@@ -36,9 +36,9 @@ struct OnboardingView: View {
                                 .foregroundColor(.black)
                                 .background(.white)
                                 .mask(Circle())
-                            .shadow(color: Color("Shadow").opacity(0.3), radius: 5, x: 0, y: 3)
+                                .shadow(color: Color("Shadow").opacity(0.3), radius: 5, x: 0, y: 3)
                         }
-                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
                     )
                     .zIndex(1)
             }
